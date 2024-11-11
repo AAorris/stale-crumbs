@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export function Page(): JSX.Element {
+function Page(): JSX.Element {
   return (
     <div className="flex flex-col gap-4">
       <p className="border rounded-md p-4 w-full">
